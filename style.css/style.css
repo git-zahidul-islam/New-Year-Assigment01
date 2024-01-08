@@ -5,7 +5,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: "Merriweather", serif;
+  /* font-family: "Merriweather", serif; */
 }
 .btn {
   border: 0;
@@ -19,7 +19,6 @@
   text-transform: uppercase;
   border-radius: 8px;
   background: #f00;
-  padding: 16px 32px;
 }
 /* 
 font-family: 'Inter', sans-serif;
@@ -123,7 +122,7 @@ nav {
   width: 640px;
   color: #fff;
   font-family: "Merriweather", serif;
-  font-size: 64px;
+  font-size: 65px;
   font-style: normal;
   font-weight: 900;
   line-height: 88px;
@@ -131,22 +130,58 @@ nav {
   margin-bottom: 25px;
 }
 .party-banner .party-banner-des {
-  width: 680px;
+  width: 690px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
   color: rgba(255, 255, 255, 0.8);
 }
 .party-banner-section .party-banner-img img {
-  width: 320px;
-  height: 420px;
+  width: 350px;
+  height: 460px;
 }
 .party-banner .party-banner-btn {
   margin: 45px 0;
   background-color: rgba(175, 26, 88, 0.775);
   box-shadow: 2px 2px 0 white;
+  padding: 16px 32px;
 }
 
-.event-start-time {
-  height: 480px;
+/* event start time */
+.event-time-section {
+  height: 450px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  font-family: "Inter", sans-serif;
+  border-radius: 15px;
 }
+.font-diffrent-color {
+  color: #f00;
+}
+.event-time {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.event-time > p {
+  color: #070211;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  text-transform: capitalize;
+}
+.event-time-btn {
+  margin-top: 45px;
+  padding: 15px 32px;
+}
+
 .event-coming {
   height: 460px;
 }
