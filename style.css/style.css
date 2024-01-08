@@ -5,7 +5,6 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  /* font-family: "Merriweather", serif; */
 }
 .btn {
   border: 0;
@@ -19,6 +18,9 @@
   text-transform: uppercase;
   border-radius: 8px;
   background: #f00;
+}
+.font-different-color {
+  color: #f00;
 }
 /* 
 font-family: 'Inter', sans-serif;
@@ -36,10 +38,6 @@ nav {
   height: 600px;
   margin: 0 auto;
   color: white;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
 }
 .nav-container {
   width: 100%;
@@ -68,8 +66,7 @@ nav {
 /* main section design start here */
 .main-container > section {
   width: 1320px;
-  /* height: 500px; */
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   margin: 120px auto;
 }
 
@@ -159,9 +156,6 @@ nav {
   font-family: "Inter", sans-serif;
   border-radius: 15px;
 }
-.font-different-color {
-  color: #f00;
-}
 .event-time {
   height: 100%;
   display: flex;
@@ -250,15 +244,74 @@ nav {
   margin-top: 245px;
 }
 
-
-
 /* holiday discount start here */
-.holiday-discount {
+.holiday-discount-section {
   height: 980px;
+  /* background-color: #fff; */
+  background-image: url(../images/Rectangle\ 2.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
 }
+.holiday-discount-section > p {
+  color: #070211;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-discount-section .holiday-sale {
+  color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.holiday-discount-section .holiday-des {
+  width: 1068px;
+  margin: 0 auto;
+}
+.holiday-discount-first-img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+.discount-first-img-left img {
+  width: 796.463px;
+  height: 662.07px;
+  /* mix-blend-mode: calc(); */
+}
+.discount-first-img-right {
+  width: 420px;
+  height: 430px;
+  position: relative;
+}
+.discount-first-img-right img {
+  /* height: 100%;
+  width: 100%; */
+  width: 420px;
+  height: 430px;
+  margin-top: 14px;
+}
+.discount-first-img-right-absolute-img {
+  position: absolute;
+  top: 160px;
+  bottom: 0;
+  left: -100px;
+}
+.discount-first-img-right-absolute-img img {
+  width: 200px;
+  height: 200px;
+}
+
+/* product portfolio start here */
 .product-portfolio {
   height: 1160px;
 }
+
+/* subscribe newsletter start here */
 .subscribe-news-latter {
   height: 615px;
 }
