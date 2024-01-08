@@ -134,7 +134,7 @@ nav {
   font-size: 18px;
   line-height: 30px;
   font-weight: 400;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: rgba(255, 255, 255, 0.8);
 }
 .party-banner-section .party-banner-img img {
@@ -182,9 +182,77 @@ nav {
   padding: 15px 32px;
 }
 
-.event-coming {
+/* coming event section start here */
+.coming-event-section {
   height: 460px;
 }
+.coming-event-img img {
+  width: 350px; /* width: 364px; , in figma file*/
+  height: 350px; /* height: 364px;  */
+  border: 15px solid #f00;
+  border-radius: 600px;
+  padding: 20px;
+}
+.coming-event {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
+.left-coming-event-best-order {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.left-coming-event-title {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+.left-coming-event-des {
+  width: 390px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.right-coming-event-date {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+.right-coming-event-des {
+  width: 275px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.coming-event-item-right img {
+  width: 140px;
+  height: 140px;
+  margin-top: 20px;
+}
+.coming-event-item-right {
+  height: 100%;
+  margin-top: 245px;
+}
+
+
+
+/* holiday discount start here */
 .holiday-discount {
   height: 980px;
 }
