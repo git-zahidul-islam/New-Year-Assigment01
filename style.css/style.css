@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Merriweather', serif;
+}
+/* 
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+*/
+
+/* header design */
+header {
+  margin-top: 50px;
+}
+nav {
+  background-image: url(../images/Banner\ Image.png);
+  border-radius: 16px;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  color: white;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+.nav-container {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-container .minor-title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+}
+.nav-container .nav-title {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; 
+  width: 632px;
+}
+/* main design start here */
+.main-container > section {
+    width: 1320px;
+    /* height: 500px; */
+    background-color: aquamarine;
+    margin: 120px auto;
+}
+.offer-section {
+    height: 800px;
+}
+.party-banner {
+    height: 600px;
+}
+.event-start-time {
+    height: 480px;
+}
+.event-coming {
+    height: 460px;
+}
+.holiday-discount {
+    height: 980px;
+}
+.product-portfolio {
+    height: 1160px;
+}
+.subscribe-news-latter {
+    height: 615px;
+}
