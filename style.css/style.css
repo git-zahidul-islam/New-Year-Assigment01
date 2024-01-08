@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 /* 
 font-family: 'Inter', sans-serif;
@@ -48,34 +48,68 @@ nav {
   font-size: 72px;
   font-style: normal;
   font-weight: 900;
-  line-height: 95px; 
+  line-height: 95px;
   width: 632px;
 }
-/* main design start here */
+/* main section design start here */
 .main-container > section {
-    width: 1320px;
-    /* height: 500px; */
-    background-color: aquamarine;
-    margin: 120px auto;
+  width: 1320px;
+  /* height: 500px; */
+  background-color: aquamarine;
+  margin: 120px auto;
 }
+
+/* offer section */
 .offer-section {
-    height: 800px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.offer-section .offer-title {
+  color: #f00;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+}
+.offer-section .offer-sub-title {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 45px;
+}
+.offer-section .offer-category-text {
+  color: #070211;
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.offer-section img {
+  width: 800px;
+  height: 500px;
+  margin-top: 45px;
+}
+
+/* party banner  */
 .party-banner {
-    height: 600px;
+  height: 600px;
 }
 .event-start-time {
-    height: 480px;
+  height: 480px;
 }
 .event-coming {
-    height: 460px;
+  height: 460px;
 }
 .holiday-discount {
-    height: 980px;
+  height: 980px;
 }
 .product-portfolio {
-    height: 1160px;
+  height: 1160px;
 }
 .subscribe-news-latter {
-    height: 615px;
+  height: 615px;
 }
