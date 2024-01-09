@@ -307,11 +307,48 @@ nav {
 }
 
 /* product portfolio start here */
-.product-portfolio {
+.product-portfolio-section {
   height: 1160px;
+}
+.product-portfolio-gift {
+  color: #f00;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.product-portfolio-title {
+  color: #070211;
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.product-portfolio-des {
+  width: 890px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+.img-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 48px;
+}
+.img-section img {
+  width: 424px;
+  height: 450px;
+}
+.img-section img:hover {
+  opacity: 0.7 ;
 }
 
 /* subscribe newsletter start here */
-.subscribe-news-latter {
+.subscribe-news-section {
   height: 615px;
 }
