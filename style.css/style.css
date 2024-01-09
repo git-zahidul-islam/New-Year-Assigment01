@@ -22,10 +22,6 @@
 .font-different-color {
   color: #f00;
 }
-/* 
-font-family: 'Inter', sans-serif;
-font-family: 'Merriweather', serif;
-*/
 
 /* header design */
 header {
@@ -180,8 +176,8 @@ nav {
   height: 460px;
 }
 .coming-event-img img {
-  width: 350px; /* width: 364px; , in figma file*/
-  height: 350px; /* height: 364px;  */
+  width: 350px; 
+  height: 350px;
   border: 15px solid #f00;
   border-radius: 600px;
   padding: 20px;
@@ -246,7 +242,6 @@ nav {
 /* holiday discount start here */
 .holiday-discount-section {
   height: 980px;
-  /* background-color: #fff; */
   background-image: url(../images/Rectangle\ 2.png);
   background-repeat: no-repeat;
   background-position: bottom center;
@@ -261,7 +256,6 @@ nav {
 .holiday-discount-section .holiday-sale {
   color: #070211;
   text-align: center;
-  font-family: Merriweather;
   font-size: 72px;
   font-weight: 900;
   font-family: "Merriweather", serif;
@@ -272,35 +266,32 @@ nav {
   width: 1068px;
   margin: 0 auto;
 }
-.holiday-discount-first-img {
+.holiday-discount-img {
   display: flex;
   justify-content: space-between;
   margin-top: 60px;
 }
-.discount-first-img-left img {
+.discount-img-left img {
   width: 796.463px;
   height: 662.07px;
-  /* mix-blend-mode: calc(); */
 }
-.discount-first-img-right {
+.discount-img-right {
   width: 420px;
   height: 430px;
   position: relative;
 }
-.discount-first-img-right img {
-  /* height: 100%;
-  width: 100%; */
+.discount-img-right img {
   width: 420px;
   height: 430px;
   margin-top: 14px;
 }
-.discount-first-img-right-absolute-img {
+.discount-img-right-absolute-img {
   position: absolute;
   top: 160px;
   bottom: 0;
   left: -100px;
 }
-.discount-first-img-right-absolute-img img {
+.discount-img-right-absolute-img img {
   width: 200px;
   height: 200px;
 }
@@ -422,10 +413,6 @@ footer {
   margin-top: 100px;
   margin-bottom: 40px;
 }
-/* .footer-section-top-item p > img {
-  width: 24px;
-  height: 24px;
-} */
 .footer-section-top-items > p {
   color: #fff;
   font-family: "Inter", sans-serif;
