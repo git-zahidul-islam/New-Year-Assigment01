@@ -345,10 +345,67 @@ nav {
   height: 450px;
 }
 .img-section img:hover {
-  opacity: 0.7 ;
+  opacity: 0.7;
 }
 
 /* subscribe newsletter start here */
 .subscribe-news-section {
   height: 615px;
+  border-radius: 15px;
+  background: rgba(255, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.subscribe-news-img img {
+  width: 150px;
+  height: 150px;
+}
+.subscribe-news-title {
+  color: #070211;
+  /* text-align: center; */
+  font-family: "Merriweather", serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+.subscribe-news-des {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: -20px;
+}
+.subscribe-news-btn-section {
+  display: flex;
+  margin-top: 10px;
+}
+.subscribe-news-btn-section input {
+  width: 390px;
+  padding: 25px 30px;
+  border: 0;
+  outline: none;
+  border-radius: 50px 0 0 50px;
+  color: rgba(7, 2, 17, 0.5);
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.subscribe-news-btn {
+  width: 210px;
+  padding: 23px 0;
+  border-radius: 0px 50px 50px 0px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
